@@ -2,215 +2,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="SS LINUX VPS - Powerful Linux VPS, Windows VPS, Proxy IP and Dedicated IP services in India.">
-<meta name="theme-color" content="#100b25">
-<title>SS LINUX VPS | All in One Solution</title>
+  <meta charset="UTF-8" />
 
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{
- font-family:Arial,sans-serif;
- background:#100b25;color:#fff;
- line-height:1.6
-}
-a{text-decoration:none;color:inherit}
-header{
- position:sticky;top:0;z-index:10;
- background:#17112f;border-bottom:1px solid #34245b;
- padding:16px 6%;
- display:flex;align-items:center;
- justify-content:space-between;gap:15px
-}
-.logo{font-size:22px;font-weight:800;color:#c5a5ff}
-.logo span{color:#fff}
-nav{display:flex;align-items:center;gap:24px}
-nav a{font-size:14px;color:#ddd}
-nav a:hover{color:#c5a5ff}
-.btn{
- display:inline-block;padding:11px 20px;
- border-radius:9px;font-weight:bold;
- background:linear-gradient(100deg,#873cff,#c04dff);
- color:white;border:0
-}
-.btn-outline{
- background:transparent;border:1px solid #a66cff
-}
-.hero{
- padding:85px 7% 75px;text-align:center;
- background:radial-gradient(ellipse at top,#382064 0%,#100b25 65%)
-}
-.tag{
- display:inline-block;padding:7px 15px;
- border:1px solid #8150c5;border-radius:30px;
- color:#d9c2ff;font-size:13px;margin-bottom:22px
-}
-h1{font-size:clamp(36px,6vw,62px);line-height:1.15}
-.gradient{
- background:linear-gradient(90deg,#b58aff,#ef9cff);
- -webkit-background-clip:text;color:transparent
-}
-.hero p{
- max-width:650px;margin:22px auto;
- color:#c6bfd7;font-size:17px
-}
-.actions{display:flex;justify-content:center;gap:13px;flex-wrap:wrap;margin-top:28px}
-section{padding:65px 7%}
-.section-title{text-align:center;margin-bottom:35px}
-.section-title h2{font-size:32px}
-.section-title p{color:#aaa2bd;margin-top:8px}
-.services{
- display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
- gap:18px
-}
-.service{
- background:#1c1535;border:1px solid #38275d;
- border-radius:16px;padding:25px;
- transition:.2s
-}
-.service:hover{transform:translateY(-5px);border-color:#a66cff}
-.service .icon{font-size:32px;margin-bottom:12px}
-.service h3{font-size:20px;margin-bottom:8px}
-.service p{color:#bcb4ce;font-size:14px;margin-bottom:18px}
-.service a{color:#c9a7ff;font-weight:bold;font-size:14px}
-.why{
- background:#17112f;
- display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
- gap:20px
-}
-.feature{padding:20px;border-left:3px solid #a66cff}
-.feature h3{margin-bottom:7px}
-.feature p{color:#bcb4ce;font-size:14px}
-.support{text-align:center}
-.support p{color:#bbb3cb;margin:12px auto 22px;max-width:550px}
-footer{
- background:#0b0718;padding:25px 7%;
- text-align:center;color:#9991aa;
- border-top:1px solid #302148;font-size:13px
-}
-@media(max-width:650px){
- header{padding:13px 4%;flex-wrap:wrap}
- nav{order:3;width:100%;justify-content:center;gap:17px}
- nav a{font-size:12px}
- .logo{font-size:19px}
- header>.btn{padding:9px 12px;font-size:12px}
- .hero{padding:65px 5%}
- section{padding:50px 5%}
- .section-title h2{font-size:27px}
-}
-</style>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <meta
+    name="description"
+    content="SS LINUX VPS - All in One Solution. Get powerful Linux VPS, Windows VPS, Proxy IP and Dedicated IP services."
+  />
+
+  <meta name="theme-color" content="#6D28D9" />
+
+  <title>SS LINUX VPS | All in One Solution</title>
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 </head>
 
 <body>
+  <div id="root"></div>
 
-<header>
- <a class="logo" href="#">SS <span>LINUX VPS</span></a>
- <nav>
-  <a href="#services">Services</a>
-  <a href="#why">Why Us</a>
-  <a href="#support">Support</a>
- </nav>
- <a class="btn" href="#services">Get Started</a>
-</header>
-
-<main>
-<section class="hero">
- <div class="tag">⚡ Reliable Hosting Solutions in India</div>
- <h1>Powerful Hosting.<br><span class="gradient">Simple Service Management.</span></h1>
- <p>
-  Discover powerful VPS, Proxy IP and Dedicated IP solutions
-  designed for speed, reliability and performance.
- </p>
- <div class="actions">
-  <a class="btn" href="#services">View Services</a>
-  <a class="btn btn-outline" href="#support">Contact Support</a>
- </div>
-</section>
-
-<section id="services">
- <div class="section-title">
-  <h2>Our Services</h2>
-  <p>Choose the right solution for your needs.</p>
- </div>
-
- <div class="services">
-  <div class="service">
-   <div class="icon">🐧</div>
-   <h3>Linux VPS</h3>
-   <p>Powerful Linux virtual servers for your applications and projects.</p>
-   <a href="#support">Explore Services →</a>
-  </div>
-
-  <div class="service">
-   <div class="icon">🖥️</div>
-   <h3>Windows VPS</h3>
-   <p>Windows virtual servers with dependable performance.</p>
-   <a href="#support">Explore Services →</a>
-  </div>
-
-  <div class="service">
-   <div class="icon">🌐</div>
-   <h3>Proxy IP</h3>
-   <p>Proxy IP solutions for your connectivity requirements.</p>
-   <a href="#support">Explore Services →</a>
-  </div>
-
-  <div class="service">
-   <div class="icon">🔐</div>
-   <h3>Dedicated IP</h3>
-   <p>Dedicated IP solutions for individual requirements.</p>
-   <a href="#support">Explore Services →</a>
-  </div>
-
-  <div class="service">
-   <div class="icon">☁️</div>
-   <h3>Cloud Servers</h3>
-   <p>Flexible cloud server solutions for your growing projects.</p>
-   <a href="#support">Explore Services →</a>
-  </div>
- </div>
-</section>
-
-<section class="why" id="why">
- <div class="feature">
-  <h3>⚡ Performance Focused</h3>
-  <p>Solutions designed with speed and performance in mind.</p>
- </div>
- <div class="feature">
-  <h3>🇮🇳 India Locations</h3>
-  <p>Service locations planned across major Indian cities.</p>
- </div>
- <div class="feature">
-  <h3>🛡️ Secure Platform</h3>
-  <p>A service platform designed with security as a priority.</p>
- </div>
- <div class="feature">
-  <h3>🎧 Customer Support</h3>
-  <p>Help and assistance for your service-related questions.</p>
- </div>
-</section>
-
-<section class="support" id="support">
- <div class="section-title">
-  <h2>Need Assistance?</h2>
-  <p>Our support team is here to help you.</p>
- </div>
- <p>Contact us for service information, account assistance and other enquiries.</p>
- <a class="btn" href="mailto:">Contact Support</a>
-</section>
-</main>
-
-<footer>
- <p>© <span id="year"></span> SS LINUX VPS. All Rights Reserved.</p>
- <p>All in One Solution</p>
-</footer>
-
-<script>
-document.getElementById("year").textContent=new Date().getFullYear();
-</script>
-
+  <script type="module" src="/src/main.jsx"></script>
 </body>
-  </html>
-     
+</html>
